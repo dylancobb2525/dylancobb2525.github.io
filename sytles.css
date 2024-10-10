@@ -18,3 +18,11 @@ h1{
     background: rgb(224, 228, 96); /* pick a color */
     border-radius: 25%;
 }
+.project img{
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    border: 2px solid rgb(184, 240, 72); /* choose a color */
+    display: block;
+    margin: auto;
+}
