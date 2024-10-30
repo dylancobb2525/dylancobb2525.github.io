@@ -26,3 +26,22 @@ h1{
     display: block;
     margin: auto;
 }
+.about{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+}
+.about img {
+    width: 185px;
+    height: 200px;
+    border-radius: 25%;
+    border: 2px solid rgb(131, 7, 156);
+}
+.about p {
+    width:50%;
+    text-align: center;
+    margin: auto;
+    line-height: 125%;
+}
