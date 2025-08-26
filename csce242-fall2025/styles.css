@@ -1,0 +1,33 @@
+/* Main Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+}
+
+#content {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: blue;
+}
+
+p {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+.github-link {
+    color: gray;
+}
