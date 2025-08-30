@@ -1,0 +1,282 @@
+body {
+    background: #F5F5DC;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    width: 100%;
+    margin: auto;
+    background: #F5F5DC;
+}
+
+/* Header Styles */
+#main-header {
+    background: #F5F5DC;
+    color: #666;
+    padding: 20px;
+    text-align: center;
+}
+
+#main-header h1 {
+    margin: 0 0 20px 0;
+    font-size: 2em;
+    color: #888;
+}
+
+/* Navigation Styles */
+#main-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    background: #D2938A;
+}
+
+#main-nav li {
+    flex: 1;
+    border-right: 1px solid #fff;
+}
+
+#main-nav li:last-child {
+    border-right: none;
+}
+
+#main-nav a {
+    color: white;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+#main-nav a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Main Content Layout */
+#main-content {
+    display: flex;
+    gap: 0;
+    min-height: 500px;
+}
+
+/* Sidebar Styles */
+#sidebar {
+    background: #D2938A;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#sidebar h3 {
+    margin: 0 0 15px 0;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar li {
+    margin-bottom: 5px;
+}
+
+#sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 8px 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+}
+
+#sidebar a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Titles Grid - 2x2 layout using flexbox */
+#titles-grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+#titles-grid .title-section {
+    width: 50%;
+    box-sizing: border-box;
+    min-height: 300px;
+}
+
+/* Gallery Grid - 3x2 layout using flexbox */
+#gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+#gallery-grid .gallery-section {
+    width: 33.333%;
+    box-sizing: border-box;
+    min-height: 200px;
+}
+
+/* Title Sections (Dog Breeds) */
+.title-section {
+    background: #5A8A8A;
+    color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Gallery Sections */
+.gallery-section {
+    background: #7FBABA;
+    color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.title-section h3 {
+    margin: 0 0 15px 0;
+    color: white;
+    background: #4A7A7A;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.title-image {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-section p {
+    color: white;
+    line-height: 1.4;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+
+
+.gallery-section h4 {
+    margin: 0 0 15px 0;
+    color: white;
+    background: #6FAAAA;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.gallery-section p {
+    color: white;
+    line-height: 1.4;
+    margin: 0;
+    font-size: 0.8em;
+}
+
+/* Footer */
+#main-footer {
+    background: #D2938A;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Mobile and smaller screens */
+@media only screen and (max-width: 768px) {
+    #main-nav ul {
+        flex-direction: column;
+    }
+    
+    #main-nav li {
+        border-right: none;
+        border-bottom: 1px solid #fff;
+    }
+    
+    #main-nav li:last-child {
+        border-bottom: none;
+    }
+    
+    #main-content {
+        flex-direction: column;
+    }
+    
+    #sidebar {
+        width: 100%;
+        order: 1;
+        box-sizing: border-box;
+    }
+    
+    #titles-grid {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    #titles-grid .title-section {
+        flex: none;
+        max-width: 100%;
+        width: 100%;
+        min-height: auto;
+    }
+    
+    #gallery-grid {
+        order: 3;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    #gallery-grid .gallery-section {
+        flex: none;
+        max-width: 100%;
+        width: 100%;
+        min-height: auto;
+    }
+    
+    .title-section, .gallery-section {
+        margin-bottom: 10px;
+    }
+    
+    .title-image {
+        width: 200px;
+        height: 100px;
+        object-fit: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .gallery-image {
+        width: 200px;
+        height: 50px;
+        object-fit: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
