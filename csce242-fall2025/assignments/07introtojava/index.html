@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment 7 - Introduction to JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="content">
+        <header id="main-header">
+            <h1>Assignment 7</h1>
+            <h2>Introduction to JavaScript</h2>
+        </header>
+        
+        <main id="main-content" class="columns">
+            <section id="sunny-section">
+                <h3>Sunny Times</h3>
+                <div id="sunny-content">
+                    <p id="sunny-text"></p>
+                </div>
+            </section>
+            
+            <section id="color-section">
+                <h3>Select A Color:</h3>
+                <div id="color-picker-container">
+                    <input type="color" id="color-input" value="#ff0000">
+                    <div id="color-display">
+                        <p id="color-code">Color Code: #ff0000</p>
+                        <p id="color-paragraph">This paragraph will change color when you select a new color!</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="image-section">
+                <h3>Image Change</h3>
+                <div id="image-container">
+                    <button id="become-sunny-btn">Become Sunny</button>
+                    <img id="weather-image" src="images/cloudy.png" alt="Cloudy Weather" onclick="changeImage()">
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>@DylanCobb CSCE 242-001</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
