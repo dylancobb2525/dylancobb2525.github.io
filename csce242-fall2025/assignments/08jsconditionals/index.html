@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment 8 - If Statements</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="content">
+        <header id="main-header">
+            <h1>Assignment 8</h1>
+            <h2>If Statements</h2>
+            <nav id="exercise-nav">
+                <button id="exercise1-btn" class="nav-btn active">Exercise 1</button>
+                <span class="nav-divider">|</span>
+                <button id="exercise2-btn" class="nav-btn">Exercise 2</button>
+            </nav>
+            <div id="toggle-nav">
+                <div></div>
+            </div>
+            <nav id="mobile-nav" class="hidden">
+                <ul>
+                    <li><a href="#" id="mobile-exercise1">Exercise 1</a></li>
+                    <li><a href="#" id="mobile-exercise2">Exercise 2</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main id="main-content">
+      
+            <section id="exercise1-section" class="exercise-section">
+                <div class="exercise-container">
+                    <h3>How many days has it been since watering your plant?</h3>
+                    <div class="slider-container">
+                        <input type="range" id="days-slider" min="1" max="12" value="1">
+                        <div id="slider-value">1</div>
+                    </div>
+                    <div id="plant-result">
+                        <div id="plant-image">
+                            <img src="images/1-2days.png" alt="Plant status">
+                        </div>
+                        <div id="plant-message">
+                            <p id="days-message">It's been 1 days since watering your plant</p>
+                            <p id="plant-status">Your plant is healthy and happy</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <section id="exercise2-section" class="exercise-section hidden">
+                <div class="exercise-container">
+                    <h3>Our Digital Clock</h3>
+                    <div id="clock-display">
+                        <div id="current-time">12:00 am</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>@Dylan Cobb, CSCE 242</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

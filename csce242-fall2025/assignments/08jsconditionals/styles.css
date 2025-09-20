@@ -1,0 +1,255 @@
+/* Assignment 8 Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #e8e8e8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Header */
+#main-header {
+    background-color: #7ba3a3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+
+#main-header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: white;
+}
+
+#main-header h2 {
+    margin: 10px 0;
+    color: #d9a5a5;
+    font-size: 1.5em;
+}
+
+/* Navigation */
+#exercise-nav {
+    margin-top: 15px;
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1em;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-btn:hover {
+    cursor: pointer;
+}
+
+.nav-divider {
+    color: white;
+    margin: 0 5px;
+}
+
+#toggle-nav {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+#toggle-nav div {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 12px solid white;
+}
+
+#mobile-nav {
+    background-color: #7ba3a3;
+    padding: 10px 0;
+}
+
+#mobile-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#mobile-nav li {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+#mobile-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* Main Content */
+#main-content {
+    padding: 40px 20px;
+}
+
+.exercise-container {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.exercise-container h3 {
+    color: #7ba3a3;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Plant Slider */
+.slider-container {
+    margin: 30px 0;
+}
+
+#days-slider {
+    width: 100%;
+    max-width: 400px;
+    height: 8px;
+    border-radius: 5px;
+    background: #ddd;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+#days-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+#days-slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+    border: none;
+}
+
+#slider-value {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #666;
+}
+
+#plant-result {
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#plant-image img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#plant-message p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+#days-message {
+    color: #7ba3a3;
+    font-weight: bold;
+}
+
+#plant-status {
+    color: #7ba3a3;
+}
+
+/* Digital Clock */
+#clock-display {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 30px;
+}
+
+#current-time {
+    font-size: 2em;
+    color: #7ba3a3;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #7ba3a3;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0 0 10px 10px;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+}
+
+/* Utility Classes */
+.hidden {
+    display: none;
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+    #exercise-nav {
+        display: none;
+    }
+    
+    #toggle-nav {
+        display: block;
+    }
+    
+    #content {
+        margin: 10px;
+        border-radius: 5px;
+    }
+    
+    #main-header {
+        border-radius: 5px 5px 0 0;
+    }
+    
+    footer {
+        border-radius: 0 0 5px 5px;
+    }
+    
+    .exercise-container {
+        padding: 0 10px;
+    }
+    
+    #plant-result {
+        padding: 20px;
+    }
+    
+    #clock-display {
+        padding: 30px 20px;
+    }
+}
