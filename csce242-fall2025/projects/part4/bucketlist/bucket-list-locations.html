@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>More Bucket List Destinations - Destinations with Dylan</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div id="content">
+        <header id="main-header">
+            <h1>Destinations with Dylan</h1>
+            <nav id="main-nav">
+                <div id="toggle-nav">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul id="nav-items" class="hide-small">
+                    <li><a href="../home/index.html">Home</a></li>
+                    <li><a href="../about/about.html">About Me</a></li>
+                    <li><a href="../travels/travels.html">My Travels</a></li>
+                    <li><a href="../bucketlist/bucketlist.html" class="active">Bucket List</a></li>
+                    <li><a href="../gallery/gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section id="page-header">
+            <h2>More Bucket List Destinations</h2>
+            <p>Dream destinations waiting to be explored</p>
+        </section>
+        
+        <main id="main-content">
+            <section id="locations-content">
+                <div class="locations-grid">
+                    <div class="location-card-large">
+                        <img src="images/flor.png" alt="Florence, Italy" onclick="expandImage(this)">
+                        <div class="location-info">
+                            <h3>Florence, Italy</h3>
+                            <p>I have never been to Europe and I want to start with Florence because it is where I plan to study abroad. Between the sight seeing and good food, this is at the top of my list.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="location-card-large">
+                        <img src="images/paris.png" alt="Paris, France" onclick="expandImage(this)">
+                        <div class="location-info">
+                            <h3>Paris, France</h3>
+                            <p>The food, shopping, and landmarks such as the Eiffel Tower are all things that I hope to experience in the next few years.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="location-card-large">
+                        <img src="images/hawaii.png" alt="Hawaii, USA" onclick="expandImage(this)">
+                        <div class="location-info">
+                            <h3>Hawaii, USA</h3>
+                            <p>I have been to a handful of islands, but this island is definitely a must see for me one day. The nature here looks insane.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="location-card-large">
+                        <img src="images/bora.png" alt="Bora Bora, French Polynesia" onclick="expandImage(this)">
+                        <div class="location-info">
+                            <h3>Bora Bora, French Polynesia</h3>
+                            <p>The water looks crystal clear and seems like a dream for me to experience. This is a trip I hope to take in my later 20s.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="location-card-large">
+                        <img src="images/moroc.png" alt="Morocco Desert" onclick="expandImage(this)">
+                        <div class="location-info">
+                            <h3>Morocco Desert</h3>
+                            <p>When I study abroad I hope to visit Morocco and ride a camel in the desert, as it is such a unique experience and something I have never been able to do.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="location-card-large">
+                        <img src="images/dubai.png" alt="Dubai, UAE" onclick="expandImage(this)">
+                        <div class="location-info">
+                            <h3>Dubai, UAE</h3>
+                            <p>This is a trip I plan to take later on in my life, but the luxury and insane architecture makes it so enticing to visit.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="back-section">
+                    <a href="bucketlist.html" class="back-btn">Back to Bucket List</a>
+                </div>
+            </section>
+        </main>
+        
+        <div id="image-popup" class="hidden">
+            <img id="popup-img" src="" alt="">
+        </div>
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>

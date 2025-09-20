@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Travels - Destinations with Dylan</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div id="content">
+        <header id="main-header">
+            <h1>Destinations with Dylan</h1>
+            <nav id="main-nav">
+                <div id="toggle-nav">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul id="nav-items" class="hide-small">
+                    <li><a href="../home/index.html">Home</a></li>
+                    <li><a href="../about/about.html">About Me</a></li>
+                    <li><a href="../travels/travels.html" class="active">My Travels</a></li>
+                    <li><a href="../bucketlist/bucketlist.html">Bucket List</a></li>
+                    <li><a href="../gallery/gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section id="page-header">
+            <h2>Destinations</h2>
+        </section>
+        
+        <main id="main-content" class="travels-layout">
+            <section class="travel-column">
+                <h3>United States</h3>
+                <div class="location-grid">
+                    <div class="location-card">
+                        <img src="images/fortl.png" alt="Fort Lauderdale, Florida" onclick="expandImage(this)">
+                        <p>Fort Lauderdale, FL</p>
+                    </div>
+                    <div class="location-card">
+                        <img src="images/boca.png" alt="Boca Raton, Florida" onclick="expandImage(this)">
+                        <p>Boca Raton, Florida</p>
+                    </div>
+                    <div class="location-card">
+                        <img src="images/nyc.png" alt="New York City, NY" onclick="expandImage(this)">
+                        <p>New York City, NY</p>
+                    </div>
+                    <div class="location-card">
+                        <img src="images/dc.png" alt="Washington, DC" onclick="expandImage(this)">
+                        <p>Washington, DC</p>
+                    </div>
+                </div>
+                <a href="us-locations.html" target="_self" class="load-more-btn">Load More</a>
+            </section>
+            
+            <section class="travel-column">
+                <h3>International</h3>
+                <div class="location-grid">
+                    <div class="location-card">
+                        <img src="images/aruba.png" alt="Aruba" onclick="expandImage(this)">
+                        <p>Aruba</p>
+                    </div>
+                    <div class="location-card">
+                        <img src="images/stmart.png" alt="St Maarten" onclick="expandImage(this)">
+                        <p>St Maarten</p>
+                    </div>
+                    <div class="location-card">
+                        <img src="images/stbart.png" alt="St Barths" onclick="expandImage(this)">
+                        <p>St Barths</p>
+                    </div>
+                    <div class="location-card">
+                        <img src="images/ang.png" alt="Anguilla" onclick="expandImage(this)">
+                        <p>Anguilla</p>
+                    </div>
+                </div>
+                <a href="international-locations.html" target="_self" class="load-more-btn">Load More</a>
+            </section>
+            
+            <section class="travel-column">
+                <h3>Interactive Map</h3>
+                <div class="map-container">
+                    <a href="interactive-map.html" target="_self">
+                        <img src="images/example.png" alt="Interactive Map" id="map-image">
+                    </a>
+                    <p>Click to expand</p>
+                </div>
+            </section>
+        </main>
+        
+        <div id="image-popup" class="hidden">
+            <img id="popup-img" src="" alt="">
+        </div>
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>
