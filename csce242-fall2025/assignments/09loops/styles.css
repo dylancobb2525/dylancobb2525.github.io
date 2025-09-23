@@ -1,0 +1,233 @@
+/* Structure */
+:root {
+    --main-background-color: #CDECEF;
+    --primary-color: #2B91AD;
+    --gallery-color: #FFB58A;
+    --day-background: #87CEEB;
+    --night-background: #000000;
+}
+
+body {
+    background: var(--main-background-color);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    background: white;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px lightblue;
+    min-height: 500px;
+}
+
+header {
+    background: var(--primary-color);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header h2 {
+    margin: 10px 0;
+    color: #FF69B4;
+    font-size: 1.5em;
+}
+
+#draw-scene {
+    background: white;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#draw-scene:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+main {
+    padding: 20px;
+    position: relative;
+    min-height: 400px;
+}
+
+#scene-area {
+    background: var(--day-background);
+    border-radius: 10px;
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+#scene-area.night {
+    background: var(--night-background);
+}
+
+#sun-moon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.sun {
+    background: #FFD700;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 20px #FFD700;
+}
+
+.moon {
+    background: #C0C0C0;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 20px #C0C0C0;
+}
+
+#clouds {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+
+.cloud {
+    position: absolute;
+    background: white;
+    border-radius: 50px;
+    opacity: 0.8;
+}
+
+.cloud:before {
+    content: '';
+    position: absolute;
+    background: white;
+    border-radius: 50px;
+    top: -25px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.cloud:after {
+    content: '';
+    position: absolute;
+    background: white;
+    border-radius: 50px;
+    top: -15px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+#trees {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+}
+
+.tree {
+    position: absolute;
+    bottom: 0;
+}
+
+.tree-trunk {
+    background: #8B4513;
+    width: 20px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.tree-canopy {
+    background: #228B22;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: -30px;
+}
+
+footer {
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    #content {
+        width: 95%;
+    }
+    
+    header h1 {
+        font-size: 1.5em;
+    }
+    
+    header h2 {
+        font-size: 1.2em;
+    }
+    
+    #scene-area {
+        height: 300px;
+    }
+    
+    .cloud {
+        width: 40px;
+        height: 25px;
+    }
+    
+    .tree-trunk {
+        width: 15px;
+        height: 45px;
+    }
+    
+    .tree-canopy {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .cloud {
+        width: 60px;
+        height: 35px;
+    }
+    
+    .tree-trunk {
+        width: 20px;
+        height: 60px;
+    }
+    
+    .tree-canopy {
+        width: 60px;
+        height: 60px;
+    }
+}
