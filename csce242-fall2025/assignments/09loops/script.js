@@ -43,14 +43,14 @@ document.getElementById("draw-scene").onclick = () => {
         tree.className = "tree";
         tree.style.left = (i * 12) + "%";
         
-        const trunk = document.createElement("div");
-        trunk.className = "tree-trunk";
-        
         const canopy = document.createElement("div");
         canopy.className = "tree-canopy";
         
-        tree.appendChild(trunk);
+        const trunk = document.createElement("div");
+        trunk.className = "tree-trunk";
+        
         tree.appendChild(canopy);
+        tree.appendChild(trunk);
         treesDiv.appendChild(tree);
     }
 };

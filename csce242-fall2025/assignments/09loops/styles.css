@@ -151,7 +151,6 @@ main {
     width: 20px;
     height: 60px;
     margin: 0 auto;
-    margin-top: -30px;
 }
 
 .tree-canopy {
@@ -160,6 +159,7 @@ main {
     height: 60px;
     border-radius: 50%;
     margin: 0 auto;
+    margin-bottom: -30px;
 }
 
 footer {
