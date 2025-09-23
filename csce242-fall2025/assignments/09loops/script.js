@@ -32,8 +32,8 @@ document.getElementById("draw-scene").onclick = () => {
     for (let i = 0; i < 6; i++) {
         const cloud = document.createElement("div");
         cloud.className = "cloud";
-        cloud.style.left = (i * 15) + "%";
-        cloud.style.top = Math.random() * 30 + "px";
+        cloud.style.left = (i * 12) + "%";
+        cloud.style.top = Math.random() * 20 + "px";
         cloudsDiv.appendChild(cloud);
     }
     
@@ -41,7 +41,7 @@ document.getElementById("draw-scene").onclick = () => {
     for (let i = 0; i < 6; i++) {
         const tree = document.createElement("div");
         tree.className = "tree";
-        tree.style.left = (i * 15) + "%";
+        tree.style.left = (i * 12) + "%";
         
         const trunk = document.createElement("div");
         trunk.className = "tree-trunk";
