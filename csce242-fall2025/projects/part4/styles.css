@@ -7,6 +7,7 @@
     --text-light: #666666;
     --border-light: #e9ecef;
     --overlay-dark: rgba(0, 0, 0, 0.7);
+    --primary-color: #2B91AD;
 }
 
 body {
@@ -189,7 +190,9 @@ body {
 
 /* Page Header */
 #page-header {
-    background: var(--black);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../about/images/hero.png');
+    background-size: cover;
+    background-position: center;
     color: var(--white);
     text-align: center;
     padding: 60px 40px;
@@ -821,4 +824,22 @@ body {
         width: 150px;
         height: 150px;
     }
+}
+
+/* Footer */
+footer {
+    background: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top: 2px solid var(--border-light);
+    width: 100%;
+    clear: both;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
 }

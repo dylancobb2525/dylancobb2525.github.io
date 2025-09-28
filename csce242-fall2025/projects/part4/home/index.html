@@ -36,15 +36,15 @@
             <section id="recent-destinations">
                 <h2>Recent Destinations</h2>
                 <div class="destination-cards">
-                    <div class="destination-card">
+                    <div class="destination-card" onclick="expandImage(this.querySelector('img'))">
                         <img src="images/nyc.png" alt="New York City">
                         <p>New York City</p>
                     </div>
-                    <div class="destination-card">
+                    <div class="destination-card" onclick="expandImage(this.querySelector('img'))">
                         <img src="images/stbart.png" alt="St. Barths">
                         <p>St. Barths</p>
                     </div>
-                    <div class="destination-card">
+                    <div class="destination-card" onclick="expandImage(this.querySelector('img'))">
                         <img src="images/stmart.png" alt="St. Maarten">
                         <p>St. Maarten</p>
                     </div>
@@ -56,6 +56,14 @@
                 <p>Hi everyone! My name is Dylan Cobb, and I'm currently a 19-year-old who has a large passion for travel. I've traveled to several different US states as well as several different countries outside of the United States. My goal is not only to track everywhere I've been but to hopefully add to this list as I grow older. I want to be able to use this website as motivation for myself to travel, as well as being able to reflect on all my amazing trips and the memories I've made along the way.</p>
             </aside>
         </main>
+        
+        <footer>
+            <p>Dylan Cobb CSCE 242-001</p>
+        </footer>
+        
+        <div id="image-popup" class="hidden">
+            <img id="popup-img" src="" alt="">
+        </div>
     </div>
     <script src="../script.js"></script>
 </body>
