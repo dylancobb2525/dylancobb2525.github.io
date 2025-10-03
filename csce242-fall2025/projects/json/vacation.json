@@ -1,0 +1,141 @@
+[{
+    "_id": 1,
+    "name": "Fort Lauderdale, Florida",
+    "location": "Fort Lauderdale, Florida, USA",
+    "description": "This was a trip I went on with some hometown friends after graduating highschool.",
+    "image": "images/fortl.png"
+},
+{
+    "_id": 2,
+    "name": "Boca Raton, Florida",
+    "location": "Boca Raton, Florida, USA",
+    "description": "This is where my mom's side of the family lives. I go atleast once per year.",
+    "image": "images/boca.png"
+},
+{
+    "_id": 3,
+    "name": "New York City, NY",
+    "location": "New York City, NY, USA",
+    "description": "I live an hour from New York City, so I go as much as possible. This is a specific picture in Midtown, I really enjoy going to the SoHo area.",
+    "image": "images/nyc.png"
+},
+{
+    "_id": 4,
+    "name": "Washington, DC",
+    "location": "Washington, DC, USA",
+    "description": "I went here a couple of years ago it was a really cool to see the nations capital.",
+    "image": "images/dc.png"
+},
+{
+    "_id": 5,
+    "name": "Charleston, SC",
+    "location": "Charleston, SC, USA",
+    "description": "I visit here on weekends when I am not busy at school. Beautiful city.",
+    "image": "images/char.png"
+},
+{
+    "_id": 6,
+    "name": "Gatlinburg, TN",
+    "location": "Gatlinburg, TN, USA",
+    "description": "I went on a mountain weekend trip here with my fraternity, it was so awesome hiking the mountains.",
+    "image": "images/gat.png"
+},
+{
+    "_id": 7,
+    "name": "Aruba",
+    "location": "Aruba",
+    "description": "I have been to Aruba several times. The weather is always picture perfect and some of the best restaurants I've been to on an island.",
+    "image": "images/aruba.png"
+},
+{
+    "_id": 8,
+    "name": "St Maarten",
+    "location": "St Maarten",
+    "description": "A beautiful island with amazing views and super friendly locals.",
+    "image": "images/stmart.png"
+},
+{
+    "_id": 9,
+    "name": "St Barths",
+    "location": "St Barths",
+    "description": "A small yet luxurious island that has unique shell beaches and tons of shopping.",
+    "image": "images/stbart.png"
+},
+{
+    "_id": 10,
+    "name": "Anguilla",
+    "location": "Anguilla",
+    "description": "What I would call a super niche island in the Caribbean. Has the best beaches I have ever seen and amazing coral reefs.",
+    "image": "images/ang.png"
+},
+{
+    "_id": 11,
+    "name": "Bermuda",
+    "location": "Bermuda",
+    "description": "Crystal clear waters and beautiful beaches that are just a short cruise ride away. Would highly recommend.",
+    "image": "images/bermuda.png"
+},
+{
+    "_id": 12,
+    "name": "Punta Cana",
+    "location": "Punta Cana, Dominican Republic",
+    "description": "It has been a while since I have been here but it is a great mix of island vacation and party scene.",
+    "image": "images/punta.png"
+},
+{
+    "_id": 13,
+    "name": "Riviera Maya",
+    "location": "Riviera Maya, Mexico",
+    "description": "It has been almost 8 years since I last went to Mexico, but this was a really fun vacation.",
+    "image": "images/riv.png"
+},
+{
+    "_id": 14,
+    "name": "Niagara Falls",
+    "location": "Niagara Falls, Canada",
+    "description": "Struggled to find a good picture from this trip, but for anyone living up north this is a must see destination.",
+    "image": "images/niagra.png"
+},
+{
+    "_id": 15,
+    "name": "Florence, Italy",
+    "location": "Florence, Italy",
+    "description": "I have never been to Europe and I want to start with Florence because it is where I plan to study abroad. Between the sight seeing and good food, this is at the top of my list.",
+    "image": "images/flor.png"
+},
+{
+    "_id": 16,
+    "name": "Paris, France",
+    "location": "Paris, France",
+    "description": "The food, shopping, and landmarks such as the Eiffel Tower are all things that I hope to experience in the next few years.",
+    "image": "images/paris.png"
+},
+{
+    "_id": 17,
+    "name": "Hawaii, USA",
+    "location": "Hawaii, USA",
+    "description": "I have been to a handful of islands, but this island is definitely a must see for me one day. The nature here looks insane.",
+    "image": "images/hawaii.png"
+},
+{
+    "_id": 18,
+    "name": "Bora Bora, French Polynesia",
+    "location": "Bora Bora, French Polynesia",
+    "description": "The water looks crystal clear and seems like a dream for me to experience. This is a trip I hope to take in my later 20s.",
+    "image": "images/bora.png"
+},
+{
+    "_id": 19,
+    "name": "Morocco Desert",
+    "location": "Morocco Desert",
+    "description": "When I study abroad I hope to visit Morocco and ride a camel in the desert, as it is such a unique experience and something I have never been able to do.",
+    "image": "images/moroc.png"
+},
+{
+    "_id": 20,
+    "name": "Dubai, UAE",
+    "location": "Dubai, UAE",
+    "description": "This is a trip I plan to take later on in my life, but the luxury and insane architecture makes it so enticing to visit.",
+    "image": "images/dubai.png"
+}
+]

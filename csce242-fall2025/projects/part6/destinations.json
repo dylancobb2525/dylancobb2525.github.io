@@ -1,0 +1,141 @@
+[{
+    "_id": 1,
+    "name": "Fort Lauderdale, Florida",
+    "location": "Fort Lauderdale, Florida, USA",
+    "description": "This was a trip I went on with some hometown friends after graduating highschool.",
+    "img_name": "images/fortl.png",
+    "category": "US Destinations",
+    "visited": true,
+    "year_visited": 2022
+},
+{
+    "_id": 2,
+    "name": "Boca Raton, Florida",
+    "location": "Boca Raton, Florida, USA",
+    "description": "This is where my mom's side of the family lives. I go atleast once per year.",
+    "img_name": "images/boca.png",
+    "category": "US Destinations",
+    "visited": true,
+    "year_visited": 2023
+},
+{
+    "_id": 3,
+    "name": "New York City, NY",
+    "location": "New York City, NY, USA",
+    "description": "I live an hour from New York City, so I go as much as possible. This is a specific picture in Midtown, I really enjoy going to the SoHo area.",
+    "img_name": "images/nyc.png",
+    "category": "US Destinations",
+    "visited": true,
+    "year_visited": 2023
+},
+{
+    "_id": 4,
+    "name": "Washington, DC",
+    "location": "Washington, DC, USA",
+    "description": "I went here a couple of years ago it was a really cool to see the nations capital.",
+    "img_name": "images/dc.png",
+    "category": "US Destinations",
+    "visited": true,
+    "year_visited": 2021
+},
+{
+    "_id": 5,
+    "name": "Charleston, SC",
+    "location": "Charleston, SC, USA",
+    "description": "I visit here on weekends when I am not busy at school. Beautiful city.",
+    "img_name": "images/char.png",
+    "category": "US Destinations",
+    "visited": true,
+    "year_visited": 2023
+},
+{
+    "_id": 6,
+    "name": "Gatlinburg, TN",
+    "location": "Gatlinburg, TN, USA",
+    "description": "I went on a mountain weekend trip here with my fraternity, it was so awesome hiking the mountains.",
+    "img_name": "images/gat.png",
+    "category": "US Destinations",
+    "visited": true,
+    "year_visited": 2022
+},
+{
+    "_id": 7,
+    "name": "Aruba",
+    "location": "Aruba",
+    "description": "I have been to Aruba several times. The weather is always picture perfect and some of the best restaurants I've been to on an island.",
+    "img_name": "images/aruba.png",
+    "category": "International Destinations",
+    "visited": true,
+    "year_visited": 2022
+},
+{
+    "_id": 8,
+    "name": "St Maarten",
+    "location": "St Maarten",
+    "description": "A beautiful island with amazing views and super friendly locals.",
+    "img_name": "images/stmart.png",
+    "category": "International Destinations",
+    "visited": true,
+    "year_visited": 2023
+},
+{
+    "_id": 9,
+    "name": "St Barths",
+    "location": "St Barths",
+    "description": "A small yet luxurious island that has unique shell beaches and tons of shopping.",
+    "img_name": "images/stbart.png",
+    "category": "International Destinations",
+    "visited": true,
+    "year_visited": 2023
+},
+{
+    "_id": 10,
+    "name": "Anguilla",
+    "location": "Anguilla",
+    "description": "What I would call a super niche island in the Caribbean. Has the best beaches I have ever seen and amazing coral reefs.",
+    "img_name": "images/ang.png",
+    "category": "International Destinations",
+    "visited": true,
+    "year_visited": 2022
+},
+{
+    "_id": 11,
+    "name": "Bermuda",
+    "location": "Bermuda",
+    "description": "Crystal clear waters and beautiful beaches that are just a short cruise ride away. Would highly recommend.",
+    "img_name": "images/bermuda.png",
+    "category": "International Destinations",
+    "visited": true,
+    "year_visited": 2021
+},
+{
+    "_id": 12,
+    "name": "Punta Cana",
+    "location": "Punta Cana, Dominican Republic",
+    "description": "It has been a while since I have been here but it is a great mix of island vacation and party scene.",
+    "img_name": "images/punta.png",
+    "category": "International Destinations",
+    "visited": true,
+    "year_visited": 2020
+},
+{
+    "_id": 13,
+    "name": "Riviera Maya",
+    "location": "Riviera Maya, Mexico",
+    "description": "It has been almost 8 years since I last went to Mexico, but this was a really fun vacation.",
+    "img_name": "images/riv.png",
+    "category": "International Destinations",
+    "visited": true,
+    "year_visited": 2016
+},
+{
+    "_id": 14,
+    "name": "Niagara Falls",
+    "location": "Niagara Falls, Canada",
+    "description": "Struggled to find a good picture from this trip, but for anyone living up north this is a must see destination.",
+    "img_name": "images/niagra.png",
+    "category": "International Destinations",
+    "visited": true,
+    "year_visited": 2019
+}
+]

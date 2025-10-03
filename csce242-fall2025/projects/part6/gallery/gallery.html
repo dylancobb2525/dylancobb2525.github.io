@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gallery - Destinations with Dylan</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div id="content">
+        <header id="main-header">
+            <h1>Destinations with Dylan</h1>
+            <nav id="main-nav">
+                <div id="toggle-nav">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul id="nav-items" class="hide-small">
+                    <li><a href="../home/index.html">Home</a></li>
+                    <li><a href="../about/about.html">About Me</a></li>
+                    <li><a href="../travels/travels.html">My Travels</a></li>
+                    <li><a href="../bucketlist/bucketlist.html">Bucket List</a></li>
+                    <li><a href="../gallery/gallery.html" class="active">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section id="page-header" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/hero.png'); background-size: cover; background-position: center;">
+            <h2>Gallery</h2>
+        </section>
+        
+        <main id="main-content">
+            <section id="gallery-content">
+                <div class="gallery-grid">
+                    <div class="gallery-item large" onclick="expandImage(this.querySelector('img'))">
+                        <img src="../travels/images/nyc.png" alt="New York City">
+                    </div>
+                    <div class="gallery-item medium" onclick="expandImage(this.querySelector('img'))">
+                        <img src="../travels/images/aruba.png" alt="Aruba">
+                    </div>
+                    <div class="gallery-item small" onclick="expandImage(this.querySelector('img'))">
+                        <img src="../travels/images/stbart.png" alt="St Barths">
+                    </div>
+                    <div class="gallery-item medium" onclick="expandImage(this.querySelector('img'))">
+                        <img src="../travels/images/fortl.png" alt="Fort Lauderdale">
+                    </div>
+                    <div class="gallery-item large" onclick="expandImage(this.querySelector('img'))">
+                        <img src="../travels/images/stmart.png" alt="St Maarten">
+                    </div>
+                    <div class="gallery-item small" onclick="expandImage(this.querySelector('img'))">
+                        <img src="../travels/images/boca.png" alt="Boca Raton">
+                    </div>
+                    <div class="gallery-item medium" onclick="expandImage(this.querySelector('img'))">
+                        <img src="../travels/images/dc.png" alt="Washington DC">
+                    </div>
+                    <div class="gallery-item small" onclick="expandImage(this.querySelector('img'))">
+                        <img src="../travels/images/ang.png" alt="Anguilla">
+                    </div>
+                    <div class="gallery-item large" onclick="expandImage(this.querySelector('img'))">
+                        <img src="../travels/images/bermuda.png" alt="Bermuda">
+                    </div>
+                    <div class="gallery-item medium" onclick="expandImage(this.querySelector('img'))">
+                        <img src="../travels/images/char.png" alt="Charleston">
+                    </div>
+                    <div class="gallery-item small" onclick="expandImage(this.querySelector('img'))">
+                        <img src="../travels/images/gat.png" alt="Gatlinburg">
+                    </div>
+                    <div class="gallery-item medium" onclick="expandImage(this.querySelector('img'))">
+                        <img src="../travels/images/punta.png" alt="Punta Cana">
+                    </div>
+                    <div class="gallery-item large" onclick="expandImage(this.querySelector('img'))">
+                        <img src="../travels/images/riv.png" alt="Riviera Maya">
+                    </div>
+                    <div class="gallery-item small" onclick="expandImage(this.querySelector('img'))">
+                        <img src="../travels/images/niagra.png" alt="Niagara Falls">
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>Dylan Cobb CSCE 242-001</p>
+        </footer>
+        
+        <div id="image-popup" class="hidden">
+            <img id="popup-img" src="" alt="">
+        </div>
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>

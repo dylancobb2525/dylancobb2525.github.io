@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Destinations with Dylan</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div id="content">
+        <header id="main-header">
+            <h1>Destinations with Dylan</h1>
+            <nav id="main-nav">
+                <div id="toggle-nav">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul id="nav-items" class="hide-small">
+                    <li><a href="../home/index.html" class="active">Home</a></li>
+                    <li><a href="../about/about.html">About Me</a></li>
+                    <li><a href="../travels/travels.html">My Travels</a></li>
+                    <li><a href="../bucketlist/bucketlist.html">Bucket List</a></li>
+                    <li><a href="../gallery/gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section id="hero-section">
+            <img src="images/hero.png" alt="Travel Hero Image" id="hero-image">
+            <div class="hero-overlay">
+                <h2>DESTINATIONS WITH DYLAN</h2>
+                <p>Explore the world through my travels</p>
+            </div>
+        </section>
+        
+        <main id="main-content">
+            <section id="recent-destinations">
+                <h2>Recent Destinations</h2>
+                <div class="destination-cards">
+                    <div class="destination-card" onclick="expandImage(this.querySelector('img'))">
+                        <img src="images/nyc.png" alt="New York City">
+                        <p>New York City</p>
+                    </div>
+                    <div class="destination-card" onclick="expandImage(this.querySelector('img'))">
+                        <img src="images/stbart.png" alt="St. Barths">
+                        <p>St. Barths</p>
+                    </div>
+                    <div class="destination-card" onclick="expandImage(this.querySelector('img'))">
+                        <img src="images/stmart.png" alt="St. Maarten">
+                        <p>St. Maarten</p>
+                    </div>
+                </div>
+            </section>
+            
+            <aside id="welcome-message">
+                <h2>Welcome to My Travel Journey</h2>
+                <p>Hi everyone! My name is Dylan Cobb, and I'm currently a 19-year-old who has a large passion for travel. I've traveled to several different US states as well as several different countries outside of the United States. My goal is not only to track everywhere I've been but to hopefully add to this list as I grow older. I want to be able to use this website as motivation for myself to travel, as well as being able to reflect on all my amazing trips and the memories I've made along the way.</p>
+            </aside>
+        </main>
+        
+        <footer>
+            <p>Dylan Cobb CSCE 242-001</p>
+        </footer>
+        
+        <div id="image-popup" class="hidden">
+            <img id="popup-img" src="" alt="">
+        </div>
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>
