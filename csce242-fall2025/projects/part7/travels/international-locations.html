@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>International Locations - Destinations with Dylan</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div id="content">
+        <header id="main-header">
+            <h1>Destinations with Dylan</h1>
+            <nav id="main-nav">
+                <div id="toggle-nav">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul id="nav-items" class="hide-small">
+                    <li><a href="../home/index.html">Home</a></li>
+                    <li><a href="../about/about.html">About Me</a></li>
+                    <li><a href="../travels/travels.html" class="active">My Travels</a></li>
+                    <li><a href="../bucketlist/bucketlist.html">Bucket List</a></li>
+                    <li><a href="../gallery/gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section id="page-header" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/hero.png'); background-size: cover; background-position: center;">
+            <h2>International Locations</h2>
+            <p>Discover destinations around the globe</p>
+        </section>
+        
+        <main id="main-content">
+            <section id="locations-content">
+                <div class="locations-grid">
+                    <!-- JSON data will be loaded here by destinations.js -->
+                </div>
+                
+                <div class="back-section">
+                    <a href="travels.html" class="back-btn">Back to My Travels</a>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>Dylan Cobb CSCE 242-001</p>
+        </footer>
+        
+        <div id="image-popup" class="hidden">
+            <img id="popup-img" src="" alt="">
+        </div>
+    </div>
+    <script src="../script.js"></script>
+    <script src="../js/destinations.js"></script>
+</body>
+</html>

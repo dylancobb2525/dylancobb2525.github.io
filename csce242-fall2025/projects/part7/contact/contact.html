@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Me - Destinations with Dylan</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="contact-styles.css">
+</head>
+<body>
+    <div id="content">
+        <header id="main-header">
+            <h1>Destinations with Dylan</h1>
+            <nav id="main-nav">
+                <div id="toggle-nav">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul id="nav-items" class="hide-small">
+                    <li><a href="../home/index.html">Home</a></li>
+                    <li><a href="../about/about.html">About Me</a></li>
+                    <li><a href="../travels/travels.html">My Travels</a></li>
+                    <li><a href="../bucketlist/bucketlist.html">Bucket List</a></li>
+                    <li><a href="../gallery/gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="active">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section id="page-header" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.png'); background-size: cover; background-position: center;">
+            <h2>Contact Me</h2>
+            <p>Get in touch with me about travel recommendations or questions</p>
+        </section>
+        
+        <main id="main-content">
+            <div class="contact-container">
+                <div class="contact-form-section">
+                    <h3>Send me a Message</h3>
+                    <form method="POST" id="contact-form">
+                        <input type="hidden" name="access_key" value="27101fda-dbb2-4b12-b0d5-990a46122157">
+                        
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea name="message" id="message" required></textarea>
+                        </div>
+                        
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                        
+                        <button type="submit" class="submit-btn">Send Message</button>
+                        
+                        <div id="contact-result"></div>
+                    </form>
+                </div>
+                
+                <div class="contact-info-section">
+                    <h3>Travel Tips & Recommendations</h3>
+                    <p>I'd love to hear about your travel experiences and share recommendations! Whether you're planning a trip to one of the destinations I've visited or have questions about traveling, feel free to reach out.</p>
+                    
+                    <div class="contact-details">
+                        <h4>What I can help with:</h4>
+                        <ul>
+                            <li>Travel recommendations for destinations I've visited</li>
+                            <li>Tips for first-time travelers</li>
+                            <li>Best times to visit certain locations</li>
+                            <li>Budget travel advice</li>
+                            <li>Must-see attractions and hidden gems</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Dylan Cobb CSCE 242-001</p>
+        </footer>
+    </div>
+    <script src="contact.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>
