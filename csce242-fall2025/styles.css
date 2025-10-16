@@ -206,3 +206,39 @@ h2{
         text-align: left;
     }
 }
+
+/* Assignment Links Styling */
+.assignment-links {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.assignment-link-small {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #5A9BD4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.assignment-link-small:hover {
+    background-color: #4A8BC4;
+}
+
+@media (max-width: 768px) {
+    .assignment-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .assignment-link-small {
+        width: 120px;
+        text-align: center;
+    }
+}
